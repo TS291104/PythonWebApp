@@ -4,7 +4,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e2a887e3-48a0-42e2-b4ab-447dbc16ee1a</ProjectGuid>
+    <ProjectGuid>bd8633f5-36a1-420d-b755-0bf7666a13b9</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <StartupFile>runserver.py</StartupFile>
@@ -15,8 +15,9 @@
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <OutputPath>.</OutputPath>
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
-    <Name>FlaskWebProject4</Name>
-    <RootNamespace>FlaskWebProject4</RootNamespace>
+    <Name>FlaskWebProjec3</Name>
+    <RootNamespace>FlaskWebProjec3</RootNamespace>
+    <InterpreterId>CondaEnv|CondaEnv|Anaconda2_64</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,45 +29,48 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
-    <Compile Include="FlaskWebProject4\__init__.py" />
-    <Compile Include="FlaskWebProject4\views.py" />
+    <Compile Include="FlaskWebProjec3\__init__.py" />
+    <Compile Include="FlaskWebProjec3\views.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="FlaskWebProject4\" />
-    <Folder Include="FlaskWebProject4\static\" />
-    <Folder Include="FlaskWebProject4\static\content\" />
-    <Folder Include="FlaskWebProject4\static\fonts\" />
-    <Folder Include="FlaskWebProject4\static\scripts\" />
-    <Folder Include="FlaskWebProject4\templates\" />
+    <Folder Include="FlaskWebProjec3\" />
+    <Folder Include="FlaskWebProjec3\static\" />
+    <Folder Include="FlaskWebProjec3\static\content\" />
+    <Folder Include="FlaskWebProjec3\static\fonts\" />
+    <Folder Include="FlaskWebProjec3\static\scripts\" />
+    <Folder Include="FlaskWebProjec3\templates\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
-    <Content Include="FlaskWebProject4\static\content\bootstrap.css" />
-    <Content Include="FlaskWebProject4\static\content\bootstrap.min.css" />
-    <Content Include="FlaskWebProject4\static\content\site.css" />
-    <Content Include="FlaskWebProject4\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="FlaskWebProject4\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="FlaskWebProject4\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="FlaskWebProject4\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="FlaskWebProject4\static\scripts\bootstrap.js" />
-    <Content Include="FlaskWebProject4\static\scripts\bootstrap.min.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery-1.10.2.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery.validate.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery.validate.min.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="FlaskWebProject4\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="FlaskWebProject4\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="FlaskWebProject4\static\scripts\respond.js" />
-    <Content Include="FlaskWebProject4\static\scripts\respond.min.js" />
-    <Content Include="FlaskWebProject4\static\scripts\_references.js" />
-    <Content Include="FlaskWebProject4\templates\about.html" />
-    <Content Include="FlaskWebProject4\templates\contact.html" />
-    <Content Include="FlaskWebProject4\templates\index.html" />
-    <Content Include="FlaskWebProject4\templates\layout.html" />
+    <Content Include="FlaskWebProjec3\static\content\bootstrap.css" />
+    <Content Include="FlaskWebProjec3\static\content\bootstrap.min.css" />
+    <Content Include="FlaskWebProjec3\static\content\site.css" />
+    <Content Include="FlaskWebProjec3\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="FlaskWebProjec3\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FlaskWebProjec3\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="FlaskWebProjec3\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="FlaskWebProjec3\static\scripts\bootstrap.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\bootstrap.min.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery-1.10.2.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery.validate.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery.validate.min.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\respond.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\respond.min.js" />
+    <Content Include="FlaskWebProjec3\static\scripts\_references.js" />
+    <Content Include="FlaskWebProjec3\templates\about.html" />
+    <Content Include="FlaskWebProjec3\templates\contact.html" />
+    <Content Include="FlaskWebProjec3\templates\index.html" />
+    <Content Include="FlaskWebProjec3\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|Anaconda2_64" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
