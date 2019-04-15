@@ -4,3 +4,13 @@ itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
 Werkzeug==0.14.1
+pandas
+numpy
+networkx
+line-profiler
+sklearn
+google-search-results
+textblob
+peewee
+matplotlib
+seaborn
