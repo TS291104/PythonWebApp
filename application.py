@@ -1,6 +1,7 @@
-from flask import Flask
-app = Flask(__name__)
+"""
+This script runs the FlaskWebProject4 application using a development server.
+"""
 
-@app.route("/")
-def hello():
-    return "Hello WorldIIV!"
+from os import environ
+from FlaskWebProject4 import app
+
