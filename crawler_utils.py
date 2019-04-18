@@ -14,7 +14,7 @@ import sys
 import logging
 import re
 import copy
-from lib.google_search_results import GoogleSearchResults
+from google_search_results import GoogleSearchResults
 from textblob import TextBlob
 from joblib import dump, load
 from peewee import *
