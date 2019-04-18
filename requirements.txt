@@ -4,7 +4,6 @@ numpy
 networkx
 line-profiler
 sklearn
-hashlib
 google-search-results
 textblob
 peewee
