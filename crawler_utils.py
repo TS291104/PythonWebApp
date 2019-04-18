@@ -18,8 +18,8 @@ from textblob import TextBlob
 from joblib import dump, load
 from peewee import *
 from datetime import datetime
-from lib.crawler_orm import *
-from lib.google_search_results import GoogleSearchResults
+from crawler_orm import *
+#from lib.google_search_results import GoogleSearchResults
 
 # Define hash function
 def hash_digest(data):
