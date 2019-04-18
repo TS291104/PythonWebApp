@@ -14,12 +14,12 @@ import sys
 import logging
 import re
 import copy
-from google_search_results import GoogleSearchResults
 from textblob import TextBlob
 from joblib import dump, load
 from peewee import *
 from datetime import datetime
 from crawler_orm import *
+from lib.google_search_results import GoogleSearchResults
 
 # Define hash function
 def hash_digest(data):
