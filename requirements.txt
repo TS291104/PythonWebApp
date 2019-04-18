@@ -1,1 +1,13 @@
 flask
+pandas
+numpy
+networkx
+line-profiler
+sklearn
+hashlib
+google-search-results
+textblob
+peewee
+matplotlib
+seaborn
+joblib

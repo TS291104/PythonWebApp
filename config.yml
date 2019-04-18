@@ -1,0 +1,5 @@
+app:
+ host: 0.0.0.0
+ port: 5002
+serp:
+  api_key: 75ea134312e991876b2911dfca50f2140a347f06f2603d8c6c7ecd7bc61b4a53
