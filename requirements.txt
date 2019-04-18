@@ -10,5 +10,4 @@ peewee
 matplotlib
 seaborn
 joblib
-yaml
-
+pyyaml
