@@ -12,4 +12,3 @@ seaborn
 joblib
 pyyaml
 lib
-lib.google_search_results
